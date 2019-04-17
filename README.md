@@ -16,8 +16,11 @@ docker-compose up -d fluentd
 docker-compose up -d backend
 ```
 
-### curl docker application
+### request application with curl
 ```
 curl http://localhost:5678
 ```
 
+### screenshot
+
+![](https://github.com/vqiu/EFK/blob/master/screenshot/kibana-7.png)
